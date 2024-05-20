@@ -1,0 +1,60 @@
+.App {
+  text-align: center;
+}
+html, #root {
+  background-image: url(../src/assets/banner.png);
+}
+.main-card {
+  height: 70vh !important;
+  border-radius: 15px !important;
+  transform: translate(10px, 100px);
+  background-image: url(../src/assets/banner7.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 0 !important;
+}
+.card-header {
+  height: 25%;
+}
+.card-body{
+  padding: 0 15% !important;
+}
+.card-header, .card-footer  {
+  background: none !important;
+  border: 0 !important;
+}
+.email, .pwd {
+  margin: 10% 0 !important;
+}
+.MuiFormControl-root {
+  width: 100% !important;
+}
+.css-10botns-MuiInputBase-input-MuiFilledInput-input, .css-1bl45wc-MuiInputBase-root-MuiFilledInput-root{
+  background: #f9b1ff !important;
+  border-radius: 5px;
+}
+.custom-btn {
+  background: #d33397 !important;
+}
+.add-to-cart {
+  background-color: #d9fde6 !important;
+  border-radius: 100px;
+  box-shadow: rgba(44, 187, 99, .2) 0 -25px 18px -14px inset,rgba(44, 187, 99, .15) 0 1px 2px,rgba(44, 187, 99, .15) 0 2px 4px,rgba(44, 187, 99, .15) 0 4px 8px,rgba(44, 187, 99, .15) 0 8px 16px,rgba(44, 187, 99, .15) 0 16px 32px;
+  color: green;
+  cursor: pointer;
+  display: inline-block;
+  font-family: CerebriSans-Regular,-apple-system,system-ui,Roboto,sans-serif;
+  padding: 7px 20px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 250ms;
+  border: 0;
+  font-size: 16px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+.add-to-cart:hover {
+  box-shadow: rgba(44,187,99,.35) 0 -25px 18px -14px inset,rgba(44,187,99,.25) 0 1px 2px,rgba(44,187,99,.25) 0 2px 4px,rgba(44,187,99,.25) 0 4px 8px,rgba(44,187,99,.25) 0 8px 16px,rgba(44,187,99,.25) 0 16px 32px;
+  transform: scale(1.05) rotate(-1deg);
+}
